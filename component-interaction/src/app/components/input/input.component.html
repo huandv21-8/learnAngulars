@@ -1,0 +1,24 @@
+<h1>name: {{name1}}</h1>
+<p>age: {{age}}</p>
+<p *ngIf="isCheck;else templateName">tinh trang ket hon : da lay vo</p>
+<ng-template #templateName><p>tinh trang ket hon : chua lay vo</p></ng-template>
+
+<hr><hr>
+
+<table class="table table-hover" *ngIf="users.length > 0">
+    <thead>
+        <tr>
+            <th>ten</th>
+            <th>tuoi</th>
+           
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr *ngFor="let item of users">
+            <td>{{item.ten}}</td>
+            <td>{{item.tuoi}}</td>
+        </tr>
+    </tbody>
+</table>
+

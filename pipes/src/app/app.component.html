@@ -1,0 +1,171 @@
+<div class="container" [style.padding-top.px]="50">
+
+  <div class="row">
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+      <table class="table table-bordered table-hover">
+        <thead>
+        <tr>
+          <th>stt</th>
+          <th>ten pipe</th>
+          <th> du lieu dau vao</th>
+          <th>két qua hien thi</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>1</td>
+          <td> Upper Case</td>
+          <td>{{content}}</td>
+          <td>{{content |uppercase }}</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td> Lower Case</td>
+          <td>{{content}}</td>
+          <td>{{content | lowercase }}</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td> Title Case</td>
+          <td>{{content}}</td>
+          <td>{{content | titlecase }}</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td> slice Case</td>
+          <td>{{content}}</td>
+          <td>{{content | slice : 4 }}</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td> number</td>
+          <td>{{number}}</td>
+          <td>{{number | number :'3.1-1' }}</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td> percent</td>
+          <td>{{number}}</td>
+          <td>{{number |percent:'3.1-3' }}</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td> currency</td>
+          <td>{{totalMoney}}</td>
+          <td>{{totalMoney |currency:'VND':true }}</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td> Date</td>
+          <td>{{today}}</td>
+          <td>{{today |date :'dd/MM/y hh:mm:ss a' }}</td>
+        </tr>
+
+        </tbody>
+      </table>
+
+    </div>
+
+  </div>
+
+</div>
+
+<hr>
+<hr>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <table class="table table-bordered table-hover">
+        <thead>
+        <tr>
+          <th>stt</th>
+          <th>tên pipe</th>
+          <th> dầu vào</th>
+          <th> két qua</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>1</td>
+          <td> Upper Case</td>
+          <td>{{content}}</td>
+          <td>{{content |formatData:20}}</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<hr>
+<hr>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <table class="table table-bordered table-hover">
+        <thead>
+        <tr>
+          <th>id</th>
+          <th>tên</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>
+            <input type="text" class="form-control" [(ngModel)]="txtId">
+          </td>
+          <td>
+            <input type="text" class="form-control" [(ngModel)]="txtName">
+          </td>
+        </tr>
+        <tr *ngFor="let item of products |filter : txtId: txtName">
+          <td>{{item.id}}</td>
+          <td> {{item.name}}</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<hr>
+<hr>
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+      <table class="table table-bordered table-hover">
+        <thead>
+        <tr>
+          <th>dau vao</th>
+          <th>sau khi sap xep</th>
+          <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>{{sos}}</td>
+          <td>{{sos|sortNumber:thamso}}</td>
+          <td>
+            <button type="button" (click)="sort1()" class="btn btn-success">sort</button>
+          </td>
+        </tr>
+
+        </tbody>
+      </table>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+

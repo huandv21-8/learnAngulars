@@ -1,0 +1,31 @@
+
+
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+      <div class="panel panel-danger">
+          <div class="panel-heading">
+            <h3 class="panel-title">{{title}}</h3>
+          </div>
+          <div class="panel-body">
+          <app-lifecycle-hook [total]="tong"></app-lifecycle-hook>
+          <hr>
+          so thu 1: <input type="number"  class="form-control" [(ngModel)]="a">
+          so thu 2: <input type="number"  class="form-control" [(ngModel)]="b">
+
+            <button type="button" class="btn btn-default" (click)="total()">button</button>
+
+          </div>
+
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

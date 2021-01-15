@@ -1,0 +1,10 @@
+
+<form >
+    <legend>Form title</legend>
+    <div class="form-group">
+        <label for="">Full name</label>
+        <input type="text" class="form-control" [(ngModel)]="txtFullname" [ngModelOptions]="{standalone:true}">
+    </div>
+    <button type="button" (click)="onSubmit()" class="btn btn-primary">send</button>
+</form>
+
