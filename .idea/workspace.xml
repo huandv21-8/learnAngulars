@@ -11,77 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3891227d-825f-4de1-927b-58a5d0d3c572" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Rxjs/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/e2e/protractor.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/e2e/src/app.po.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/e2e/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/src/app/app-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/src/app/app.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/src/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rxjs/tslint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/e2e/protractor.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/e2e/src/app.po.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/e2e/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/src/app/app-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/src/app/app.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/src/app/components/input/input.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/src/app/components/input/input.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/src/app/components/input/input.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/src/app/components/input/input.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/src/app/components/output/output.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/src/app/components/output/output.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/src/app/components/output/output.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/src/app/components/output/output.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/src/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-interaction/tslint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-service-pipe-models/src/app/models/movie.class.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/my-app1/src/app/components/attribute/attribute.component.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/my-app1/src/app/components/attribute/attribute.component.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/my-app1/src/app/components/attribute/attribute.component.spec.ts" afterDir="false" />
@@ -106,10 +35,10 @@
       <change afterPath="$PROJECT_DIR$/my-app1/src/app/components/view-to-component/view-to-component.component.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/my-app1/src/app/components/view-to-component/view-to-component.component.spec.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/my-app1/src/app/components/view-to-component/view-to-component.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/src/app/app.routes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/src/app/models/product.class.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login-and-register/src/app/component/shared/vote-button/vote-button.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/login-and-register/src/app/component/shared/vote-button/vote-button.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login-and-register/src/app/component/subreddit/view-subreddit/view-subreddit.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/login-and-register/src/app/component/subreddit/view-subreddit/view-subreddit.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app1" beforeDir="false" afterPath="$PROJECT_DIR$/my-app1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app1/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app1/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app1/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-app1/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app1/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app1/src/app/app.component.ts" afterDir="false" />
@@ -172,7 +101,7 @@
       <workItem from="1609917967744" duration="1579000" />
       <workItem from="1609981425341" duration="28135000" />
       <workItem from="1610589939734" duration="19623000" />
-      <workItem from="1610673207967" duration="4832000" />
+      <workItem from="1610673207967" duration="5483000" />
     </task>
     <servers />
   </component>

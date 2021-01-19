@@ -53,7 +53,6 @@ export class TokenInterceptor implements HttpInterceptor {
         // Khi lệnh gọi refreshToken hoàn tất, chúng tôi đặt lại isTokenRefreshing thành false
         // cho lần tiếp theo mã thông báo cần được làm mới
         finalize(() => this.isTokenRefreshing = false)
-
       );
     } else {
       // Nếu isTokenRefreshing là true, chúng ta sẽ đợi cho đến khi refreshTokenSubject có giá trị không phải null
